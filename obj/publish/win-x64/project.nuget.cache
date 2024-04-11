@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NXS9Ls9KV+146mI640aPqe3xL5WJiKlhlgwww8m+SEGo8GWZA2Jrc0ym0XVuqDwhnfuZvxhBJZM+rgXq2r0roA==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Repositories\\techxpert\\TechXpert.Website\\TechXpert.Website\\TechXpert.Website.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amit Anant Patole\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\7.0.10\\microsoft.netcore.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\Amit Anant Patole\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\7.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.7.0.10.nupkg.sha512",
+    "C:\\Users\\Amit Anant Patole\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\7.0.10\\microsoft.aspnetcore.app.runtime.win-x64.7.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
