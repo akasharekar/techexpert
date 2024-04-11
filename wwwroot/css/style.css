@@ -2117,13 +2117,19 @@ svg {
 
 /* ---------pricing page css start---- */
 .pricing-landing {
-    padding-top: 100px;
+    padding-top: 70px;
     width: 100%;
-    height: 570px;
+    height: 500px;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
+
 }
+
+.div-hight {
+    height: 600px;
+}
+
 
 .head1 {
     padding: 0px 5% 0 3%;
@@ -2140,6 +2146,11 @@ svg {
     margin-left: 40%;
 }
 
+.pricing-img1 {
+    height: 400px;
+    margin-right: 80px;
+}
+
 @media only screen and (max-width: 1080px) {
     .pricing-landing {
         display: flex;
@@ -2147,12 +2158,34 @@ svg {
         text-align: center;
         height: auto;
     }
+
     .pricing-btn {
         margin-left: 0%;
     }
-    .pricing-img1{
+
+    .pricing-img1 {
         margin: 0;
         padding: 0;
         width: 100%;
     }
+}
+
+/* <!-- pricing selction css --> */
+.container-2 {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(237, 240, 240);
+    text-align: center;
+    line-height: 6rem;
+    font-weight: 50;
+    font-size: 30px;
+}
+
+.container-3 {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    border-radius: 2px solid black;
 }
