@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.7/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
 </head>
 
 <body>
@@ -102,100 +103,123 @@
         <div class="container-2">
             <h1 class="">One price for ALL users included within the plan limit</h1>
         </div>
-        <!-- <iframe src="./iframe-test.html" frameborder="0" style="width: 100%; height: 100dvh;"></iframe> -->
+
 
         <!-- pricing selction -->
 
-        <div class="container-3 ">
-            <div class="side-bar">Features
-                <div class="Net-show">Network
-                    <ul class="New-list">
-                        <a href="">
-                            <li class="lst-1">Switeches</li>
-                        </a>
-                        <a href="">
+        <div class="container-3">
+            <div class="side-bar" id="side-bar">
+                <div class="Features">
+                    Services
+                </div>
+
+                <!-- Features -->
+                <div class="menu">
+                    <div class="Net-show main">Network
+                        <ul class="New-list">
+                            <li class="lst-1"><a href="#Switch">Switches</a></li>
                             <li class="lst-1">Router</li>
-                        </a>
-                        <a href="">
                             <li class="lst-1">Access Point</li>
-                        </a>
-                        <a href="">
                             <li class="lst-1">SD WAN</li>
-                        </a>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-                <div class="s-s-show">Server & Storage
-                    <ul class="s-s-list">
-                        <a href="">
+                    <div class="s-s-show main">Server & Storage
+                        <ul class="s-s-list">
                             <li class="lst-2">Server Configuration</li>
-                        </a>
-                        <a href="">
-                            <li class="lst-2">File Server</li>
-                        </a>
-                        <a href="">
+                            <li class="lst-2">File Server
+                                <br>
+                                <div class="box">
+                                    <select name="" id="">
+                                        <option disabled selected value="">Select an option :</option>
+                                        <option value="">Windows File server </option>
+                                        <option value="">NAS File server </option>
+                                        <option value="">SAN File server </option>
+                                    </select>
+                                </div>
+                            </li>
                             <li class="lst-2">Virtulazation</li>
-                        </a>
-                        <a href="">
                             <li class="lst-2">VMware</li>
-                        </a>
-                        <a href="">
                             <li class="lst-2">Nutanix</li>
-                        </a>
-                        <a href="">
                             <li class="lst-2">Microsoft 365</li>
-                        </a>
-                        <a href="">
-                            <li class="lst-2">Backup Solution</li>
-                        </a>
-                    </ul>
-                </div>
+                            <li class="lst-2">Backup Solution
+                                <div class="box">
+                                    <select name="" id="">
 
-                <div class="sec-show">Security
-                    <ul class="sec-list">
-                        <a href="">
+                                        <option disabled selected value="">Select an option :</option>
+                                        <option value="">Commvault Application</option>
+                                        <option value="">Veeam Backup </option>
+                                        <option value="">Veritas Backup </option>
+
+                                    </select>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="sec-show main">Security
+                        <ul class="sec-list">
                             <li class="lst-3">Firewall</li>
-                        </a>
-                    </ul>
-                </div>
+                        </ul>
+                    </div>
 
-                <div class="cs-show">Cloud Solution
-                    <ul class="cs-list">
+                    <div class="cs-show main">Cloud Solution
+                        <br>
+                        <div class="box">
+                            <select name="" id="">
+                                <option disabled selected value="">Select an option :</option>
+                                <option value="">Azure</option>
+                                <option value="">AWS </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- <ul class="cs-list">
                         <a href="">
                             <li class="lst-4">Azure</li>
                         </a>
                         <a href="">
                             <li class="lst-4">AWS</li>
                         </a>
-                    </ul>
-                </div>
+                    </ul> -->
 
-                <div>Monitoring Tool</div>
-                <div>Support</div>
+                    <div class="main">Monitoring Tool</div>
+                    <div class="main main-2">Support</div>
+                </div>
             </div>
 
             <!-- princing table -->
             <div class="table">
-                <table>
-                    <tr>
-                        <tr>
-                            <td>Basic</td>
-                            <td>Standard</td>
-                            <td>Enterprise</td>
-                        </tr>
+                <!-- tabale heading columns -->
+                <div class="tab-head">
+                    <div>
+                        Basic
+                    </div>
 
-                        <!-- Network heading -->
-                        <tr>
-                            <td>Network</td>
-                        </tr>
+                    <div>
+                        Standard
+                    </div>
 
-                        <!-- Switches info -->
-                        <tr>
-                            <td>Switches</td>
-                        </tr>
-    
-                        <tr>
-                            <td>
+                    <div>
+                        Enterprise
+                    </div>
+
+                </div>
+
+                <!-- network -->
+                <div class="net-tab">
+                    <div>
+                        <div class="main-bar">
+                            Network
+                        </div>
+                        <div id="Switch" class="sub-bar">
+                            Switches
+                        </div>
+
+                        <div class="item">
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>VLAN Configuration</li>
                                 <li>Management and monitoring</li>
@@ -207,10 +231,10 @@
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                                
-                            </td>
-    
-                            <td>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>VLAN Configuration</li>
                                 <li>Management and monitoring</li>
@@ -222,10 +246,10 @@
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                               
-                            </td>
-    
-                            <td>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>VLAN Configuration</li>
                                 <li>Management and monitoring</li>
@@ -237,31 +261,34 @@
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                                
-                            </td>
-                            
-                        </tr>
 
-                        <tr> 
-                            <td>Basic price</td>
-                            <td>Started price</td>
-                            <td>Enterprise price</td>
-                        </tr>
-                        <tr> 
-                            <td><button> Basic price</button></td>
-                            <td><button> Started price</button> </td>
-                            <td><button> Enterprise price</button> </td>
-                        </tr>
+                            </div>
 
-                        
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane </button></div>
+                            <div><button>Get Plane </button> </div>
+                            <div><button>Get Plane </button> </div>
+                        </div>
 
-                        <!-- router info -->
-                        <tr>
-                            <td>Router</td>
-                        </tr>
+                    </div>
+                    <!-- network end -->
 
-                        <tr>
-                            <td>
+                    <!--  router  -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Router
+                        </div>
+
+                        <div class="item">
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>Management and monitoring</li>
                                 <li>Access Control list</li>
@@ -269,10 +296,10 @@
                                 <li>VRRP/HRRP</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                                
-                            </td>
-    
-                            <td>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>Management and monitoring</li>
                                 <li>Access Control list</li>
@@ -280,10 +307,10 @@
                                 <li>VRRP/HRRP</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                               
-                            </td>
-    
-                            <td>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
                                 <li>Management and monitoring</li>
                                 <li>Access Control list</li>
@@ -291,124 +318,775 @@
                                 <li>VRRP/HRRP</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                               
-                            </td>
-                        </tr>
-                        <tr> 
-                            <td>Basic price</td>
-                            <td>Started price</td>
-                            <td>Enterprise price</td>
-                        </tr>
-                        <tr> 
-                            <td><button> Basic price</button></td>
-                            <td><button> Started price</button> </td>
-                            <td><button> Enterprise price</button> </td>
-                        </tr>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> Get Plane</button></div>
+                            <div><button> Get Plane</button> </div>
+                            <div><button> Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!--  router  end -->
 
 
-                        <!-- Access Point info -->
-                        <tr>
-                            <td>Access Point</td>
-                        </tr>
+                    <!--   Access Point info  -->
+                    <div>
 
-                        <tr>
-                            <td>
+                        <div class="sub-bar">
+                            Access Point
+                        </div>
+
+                        <div class="item">
+
+                            <div>
                                 <li>VLAN Configuration</li>
                                 <li>Wireless Controller Configuration</li>
                                 <li>SSID Configuration</li>
                                 <li>802.1x Authentication</li>
-                                <li>Radius\Tacacs Configuration</li>  
-                            </td>
-    
-                            <td>
+                                <li>Radius\Tacacs Configuration</li>
+
+                            </div>
+
+                            <div>
                                 <li>VLAN Configuration</li>
                                 <li>Wireless Controller Configuration</li>
                                 <li>SSID Configuration</li>
                                 <li>802.1x Authentication</li>
-                                <li>Radius\Tacacs Configuration</li>  
-                            </td>
-    
-                            <td>
+                                <li>Radius\Tacacs Configuration</li>
+
+                            </div>
+
+                            <div>
                                 <li>VLAN Configuration</li>
                                 <li>Wireless Controller Configuration</li>
                                 <li>SSID Configuration</li>
                                 <li>802.1x Authentication</li>
-                                <li>Radius\Tacacs Configuration</li>  
-                            </td>
-                        </tr>
+                                <li>Radius\Tacacs Configuration</li>
 
-                        <tr> 
-                            <td>Basic price</td>
-                            <td>Started price</td>
-                            <td>Enterprise price</td>
-                        </tr>
-                        <tr> 
-                            <td><button> Basic price</button></td>
-                            <td><button> Started price</button> </td>
-                            <td><button> Enterprise price</button> </td>
-                        </tr>
+                            </div>
 
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> Get Plane</button></div>
+                            <div><button> Get Plane</button> </div>
+                            <div><button> Get Plane</button> </div>
+                        </div>
 
-                        <!-- SD WAN info -->
-                        <tr>
-                            <td>SD WAN</td>
-                        </tr>
+                    </div>
+                    <!--   Access Point info  end -->
 
-                        <tr>
-                            <td>
+                    <!--   SD WAN info -->
+                    <div>
+
+                        <div class="sub-bar">
+                            SD WAN
+                        </div>
+
+                        <div class="item">
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
-                                <li>VLAN Configuration</li> 
+                                <li>VLAN Configuration</li>
                                 <li>Access Control list</li>
                                 <li>VRRP/HRRP</li>
                                 <li>Stacking Configuration</li>
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
                                 <li>Qos Configuration</li>
-                            </td>
-    
-                            <td>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
-                                <li>VLAN Configuration</li> 
+                                <li>VLAN Configuration</li>
                                 <li>Access Control list</li>
                                 <li>VRRP/HRRP</li>
                                 <li>Stacking Configuration</li>
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
-                                <li>Qos Configuration</li> 
-                            </td>
-    
-                            <td>
+                                <li>Qos Configuration</li>
+
+                            </div>
+
+                            <div>
                                 <li>Routing Protocol Configuration</li>
-                                <li>VLAN Configuration</li> 
+                                <li>VLAN Configuration</li>
                                 <li>Access Control list</li>
                                 <li>VRRP/HRRP</li>
                                 <li>Stacking Configuration</li>
                                 <li>802.1x Authentication</li>
                                 <li>Radius\Tacacs Configuration</li>
-                                <li>Qos Configuration</li>  
-                            </td>
-                        </tr>
+                                <li>Qos Configuration</li>
 
-                        <tr> 
-                            <td>Basic price</td>
-                            <td>Started price</td>
-                            <td>Enterprise price</td>
-                        </tr>
-                        <tr> 
-                            <td><button> Basic price</button></td>
-                            <td><button> Started price</button> </td>
-                            <td><button> Enterprise price</button> </td>
-                        </tr>
-    
+                            </div>
 
-                    </tr>
-                    
-                </table>
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
 
-                <table>
-                    
-                </table>
+                    </div>
+                    <!--   SD WAN info  end -->
+
+                </div>
+                <!-- network end -->
+
+
+                <!-- server and storage start -->
+                <div class="ss-tab">
+
+                    <!-- Server Configuration -->
+                    <div>
+                        <div class="main-bar">
+                            Server & Storage
+                        </div>
+                        <div class="sub-bar">
+                            Server Configuration
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>ILO Configuration</li>
+                                <li>RAID Configuration</li>
+                                <li>Update Firmware</li>
+                                <li>Opning System Installation</li>
+
+                            </div>
+
+                            <div>
+                                <li>ILO Configuration</li>
+                                <li>RAID Configuration</li>
+                                <li>Update Firmware</li>
+                                <li>Opning System Installation</li>
+
+                            </div>
+
+                            <div>
+                                <li>ILO Configuration</li>
+                                <li>RAID Configuration</li>
+                                <li>Update Firmware</li>
+                                <li>Opning System Installation</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Server Configuration end -->
+
+
+                    <!-- Active Directory -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Active Directory
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Active Directory Configuration</li>
+                                <li>Real-time Active Directory</li>
+                                <li>group Policy Creation</li>
+                                <li>DNS Server Configuration</li>
+                                <li>DHCP Server Configuration</li>
+
+                            </div>
+
+                            <div>
+                                <li>Active Directory Configuration</li>
+                                <li>Real-time Active Directory</li>
+                                <li>group Policy Creation</li>
+                                <li>DNS Server Configuration</li>
+                                <li>DHCP Server Configuration</li>
+
+                            </div>
+
+                            <div>
+                                <li>Active Directory Configuration</li>
+                                <li>Real-time Active Directory</li>
+                                <li>group Policy Creation</li>
+                                <li>DNS Server Configuration</li>
+                                <li>DHCP Server Configuration</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> Get Plane</button></div>
+                            <div><button> Get Plane</button> </div>
+                            <div><button> Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Active Directory end -->
+
+                    <!-- File Server-->
+                    <div>
+
+                        <div class="sub-bar">
+                            File Server
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Install File Server</li>
+                                <li>Create Shared Folder</li>
+                                <li>Attribute Access</li>
+                                <li>Configure Share Settings</li>
+
+                            </div>
+
+                            <div>
+                                <li>Install File Server</li>
+                                <li>Create Shared Folder</li>
+                                <li>Attribute Access</li>
+                                <li>Configure Share Settings</li>
+
+                            </div>
+
+                            <div>
+                                <li>Install File Server</li>
+                                <li>Create Shared Folder</li>
+                                <li>Attribute Access</li>
+                                <li>Configure Share Settings</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- File Server end -->
+
+                    <!-- Vmware -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Vmware
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>ESXi Installation & Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Network Configuration</li>
+                                <li>vCenter Server Deployement</li>
+                                <li>Database Configuration</li>
+                                <li>vCenter Server Appliance Configuration</li>
+                                <li>Inventory Service Configuration</li>
+
+                            </div>
+
+                            <div>
+                                <li>ESXi Installation & Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Network Configuration</li>
+                                <li>vCenter Server Deployement</li>
+                                <li>Database Configuration</li>
+                                <li>vCenter Server Appliance Configuration</li>
+                                <li>Inventory Service Configuration</li>
+
+                            </div>
+
+                            <div>
+                                <li>ESXi Installation & Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Network Configuration</li>
+                                <li>vCenter Server Deployement</li>
+                                <li>Database Configuration</li>
+                                <li>vCenter Server Appliance Configuration</li>
+                                <li>Inventory Service Configuration</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Vmware end -->
+
+                    <!-- Nutanix  -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Nutanix
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Software Deployement</li>
+                                <li>Prism Center installation</li>
+                                <li>Cluster Configuration</li>
+                                <li>Node Addition and Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Prism Center Configuration</li>
+                                <li>Monitor and Manage</li>
+
+                            </div>
+
+                            <div>
+                                <li>Software Deployement</li>
+                                <li>Prism Center installation</li>
+                                <li>Cluster Configuration</li>
+                                <li>Node Addition and Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Prism Center Configuration</li>
+                                <li>Monitor and Manage</li>
+
+                            </div>
+
+                            <div>
+                                <li>Software Deployement</li>
+                                <li>Prism Center installation</li>
+                                <li>Cluster Configuration</li>
+                                <li>Node Addition and Configuration</li>
+                                <li>Storage Configuration</li>
+                                <li>Prism Center Configuration</li>
+                                <li>Monitor and Manage</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> Get Plane</button></div>
+                            <div><button> Get Plane</button> </div>
+                            <div><button> Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Nutanix end -->
+
+                    <!-- Microsoft 365  -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Microsoft 365
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Office 365 Account Creation</li>
+                                <li>Configuration</li>
+                                <li>Exchanger Online</li>
+                                <li>Sharepoin Online and One Drive Configuration</li>
+                                <li>Microsoft Teams</li>
+                                <li>Microsoft office Apps</li>
+
+                            </div>
+
+                            <div>
+                                <li>Office 365 Account Creation</li>
+                                <li>Configuration</li>
+                                <li>Exchanger Online</li>
+                                <li>Sharepoin Online and One Drive Configuration</li>
+                                <li>Microsoft Teams</li>
+                                <li>Microsoft office Apps</li>
+
+                            </div>
+
+                            <div>
+                                <li>Office 365 Account Creation</li>
+                                <li>Configuration</li>
+                                <li>Exchanger Online</li>
+                                <li>Sharepoin Online and One Drive Configuration</li>
+                                <li>Microsoft Teams</li>
+                                <li>Microsoft office Apps</li>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Microsoft 365 end -->
+
+                    <!-- Backup Solution  -->
+                    <div>
+
+                        <div class="sub-bar">
+                            Backup Solution
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Installation and Impelementation</li>
+                                <li>Compatibility Check</li>
+                                <li>Automated Scheduling</li>
+                                <li>Backup Policy Creation</li>
+                                <li>Lackup Category configuration</li>
+                                <li>Data Encryption</li>
+                                <li>Cloud Integration</li>
+                                <li>Monitoring and Reporting</li>
+                                <li>Disaster Recovery</li>
+                                <li>User Permissions and Access Control</li>
+
+                            </div>
+
+                            <div>
+                                <li>Installation and Impelementation</li>
+                                <li>Compatibility Check</li>
+                                <li>Automated Scheduling</li>
+                                <li>Backup Policy Creation</li>
+                                <li>Lackup Category configuration</li>
+                                <li>Data Encryption</li>
+                                <li>Cloud Integration</li>
+                                <li>Monitoring and Reporting</li>
+                                <li>Disaster Recovery</li>
+                                <li>User Permissions and Access Control</li>
+
+                            </div>
+
+                            <div>
+                                <li>Installation and Impelementation</li>
+                                <li>Compatibility Check</li>
+                                <li>Automated Scheduling</li>
+                                <li>Backup Policy Creation</li>
+                                <li>Lackup Category configuration</li>
+                                <li>Data Encryption</li>
+                                <li>Cloud Integration</li>
+                                <li>Monitoring and Reporting</li>
+                                <li>Disaster Recovery</li>
+                                <li>User Permissions and Access Control</li>
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- Backup Solution end -->
+
+                </div>
+                <!-- server and storage  -->
+
+
+
+
+                <!-- security -->
+                <div class="sec-tab">
+                    <!-- firewall -->
+                    <div>
+                        <div class="main-bar">
+                            Security
+                        </div>
+                        <div class="sub-bar">
+                            Firewall
+                        </div>
+
+                        <div class="item">
+
+                            <div>
+                                <li>Firewall Configuration</li>
+                                <li>firewall HA</li>
+                                <li>Rules Creation</li>
+                                <li>Log monitoring & Reporting</li>
+                                <li>IDS\IPS Configuration</li>
+                                <li>VPN Configuration</li>
+                                <li>Packet filtering</li>
+                                <li>NAT</li>
+                                <li>Content Flitering</li>
+
+                            </div>
+
+                            <div>
+                                <li>Firewall Configuration</li>
+                                <li>firewall HA</li>
+                                <li>Rules Creation</li>
+                                <li>Log monitoring & Reporting</li>
+                                <li>IDS\IPS Configuration</li>
+                                <li>VPN Configuration</li>
+                                <li>Packet filtering</li>
+                                <li>NAT</li>
+                                <li>Content Flitering</li>
+
+                            </div>
+
+                            <div>
+                                <li>Firewall Configuration</li>
+                                <li>firewall HA</li>
+                                <li>Rules Creation</li>
+                                <li>Log monitoring & Reporting</li>
+                                <li>IDS\IPS Configuration</li>
+                                <li>VPN Configuration</li>
+                                <li>Packet filtering</li>
+                                <li>NAT</li>
+                                <li>Content Flitering</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- firewall end -->
+
+                </div>
+                <!-- security end -->
+
+
+
+                <!-- Cloud Solution -->
+                <div class="cld-tab">
+                    <!-- firewall -->
+                    <div>
+                        <div class="main-bar">
+                            Cloud Solution
+                        </div>
+
+
+                        <div class="item">
+
+                            <div>
+                                <li>Assessment and Planning</li>
+                                <li>Configuration and Setup</li>
+                                <li>Data Migration</li>
+                                <li>Integration</li>
+                                <li>Security Implementation</li>
+                                <li>Performance Optimization</li>
+                                <li>Compliance and Governance</li>
+
+                            </div>
+
+                            <div>
+                                <li>Assessment and Planning</li>
+                                <li>Configuration and Setup</li>
+                                <li>Data Migration</li>
+                                <li>Integration</li>
+                                <li>Security Implementation</li>
+                                <li>Performance Optimization</li>
+                                <li>Compliance and Governance</li>
+
+                            </div>
+
+                            <div>
+                                <li>Assessment and Planning</li>
+                                <li>Configuration and Setup</li>
+                                <li>Data Migration</li>
+                                <li>Integration</li>
+                                <li>Security Implementation</li>
+                                <li>Performance Optimization</li>
+                                <li>Compliance and Governance</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button>Get Plane</button></div>
+                            <div><button>Get Plane</button> </div>
+                            <div><button>Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!-- firewall end -->
+
+                </div>
+                <!-- Cloud Solution end -->
+
+
+                <!-- monitoring tool -->
+                <div class="mon-tab">
+                    <!-- Monitoring Tool -->
+                    <div>
+                        <div class="main-bar">
+                            Monitoring Tool
+                        </div>
+
+
+                        <div class="item">
+
+                            <div>
+                                <li>SolarWinds Monitroing Tool</li>
+                                <li>Splunk Monitoring Tool</li>
+                                <li>NetAl Monitoring Tool</li>
+
+                            </div>
+
+                            <div>
+                                <li>SolarWinds Monitroing Tool</li>
+                                <li>Splunk Monitoring Tool</li>
+                                <li>NetAl Monitoring Tool</li>
+
+                            </div>
+
+                            <div>
+                                <li>SolarWinds Monitroing Tool</li>
+                                <li>Splunk Monitoring Tool</li>
+                                <li>NetAl Monitoring Tool</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> Get Plane</button></div>
+                            <div><button> Get Plane</button> </div>
+                            <div><button> Get Plane</button> </div>
+                        </div>
+
+                    </div>
+                    <!--Monitoring Tool end -->
+
+                </div>
+                <!-- monitoring tool end -->
+
+
+                <!-- support tool -->
+                <div class="sup-tab">
+                    <!-- support Tool -->
+                    <div>
+                        <div class="main-bar">
+                            Support
+                        </div>
+
+
+                        <div class="item">
+
+                            <div>
+                                <li>24\7 Support</li>
+                                <li>24\7 Support</li>
+                                <li>Shared Suppoн</li>
+                                <li>Dedicated Support</li>
+
+                            </div>
+
+                            <div>
+                                <li>24\7 Support</li>
+                                <li>24\7 Support</li>
+                                <li>Shared Suppoн</li>
+                                <li>Dedicated Support</li>
+
+                            </div>
+
+                            <div>
+                                <li>24\7 Support</li>
+                                <li>24\7 Support</li>
+                                <li>Shared Suppoн</li>
+                                <li>Dedicated Support</li>
+
+                            </div>
+
+                        </div>
+                        <div class="price">
+                            <div>1000</div>
+                            <div>2000</div>
+                            <div>3000</div>
+                        </div>
+                        <div class="btn">
+                            <div><button> 1000</button></div>
+                            <div><button> 2000</button> </div>
+                            <div><button> 3000</button> </div>
+                        </div>
+
+                    </div>
+                    <!--support Tool end -->
+
+                </div>
+                <!-- support tool end -->
+
+
+
+
             </div>
+            <!-- end -->
 
 
         </div>
@@ -457,6 +1135,55 @@
     </footer> -->
 
     <script src="./js/pricing.js"></script>
+    <script>
+
+        // side bar js
+
+        $(document).ready(function () {
+            var sidebar = $('.side-bar');
+            var tab_head = $('.tab-head');
+
+
+            if (sidebar.length) { // Check if sidebar element exists
+                var sidebarTop = sidebar.offset().top - 80;
+
+                $(window).scroll(function () {
+                    var currentScroll = $(window).scrollTop();
+                    if (currentScroll > sidebarTop) {
+                        sidebar.addClass('sticky-bar');
+                        tab_head.addClass('sticky-bar');
+
+                    } else {
+                        sidebar.removeClass('sticky-bar');
+                        tab_head.removeClass('sticky-bar');
+
+                    }
+                });
+            }
+        });
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const sidebarLinks = document.querySelectorAll('.sub-bar');
+
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    const targetId = this.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    var headerOffset = 430;
+                    var elementPosition = targetId.getBoundingClientRect().top;
+                    var offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+                    if (targetSection) {
+                        offsetPosition.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+        });
+
+
+    </script>
 
 </body>
 

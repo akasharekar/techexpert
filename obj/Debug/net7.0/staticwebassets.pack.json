@@ -785,6 +785,10 @@
       "PackagePath": "staticwebassets\\js\\lottiefile.js"
     },
     {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\js\\pricing.js",
+      "PackagePath": "staticwebassets\\js\\pricing.js"
+    },
+    {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

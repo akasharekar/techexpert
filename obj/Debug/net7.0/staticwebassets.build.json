@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JLQxxdil4LIK3MYAcdj0CDCudBTbYJ3mrx/CTlqV+SI=",
+  "Hash": "fX+ljxNjdwk0e26Uf4BPFJm7lEj02JMLu5snAeMUrVY=",
   "Source": "TechXpert.Website",
   "BasePath": "_content/TechXpert.Website",
   "Mode": "Default",
@@ -3347,6 +3347,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\lottiefile.js"
+    },
+    {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\js\\pricing.js",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "js/pricing.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pricing.js"
     },
     {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\js\\site.js",
