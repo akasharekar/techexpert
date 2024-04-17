@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\assets\\hero-img1.png"
     },
     {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\icon.svg",
+      "PackagePath": "staticwebassets\\assets\\icon.svg"
+    },
+    {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\jenny.png",
       "PackagePath": "staticwebassets\\assets\\jenny.png"
     },
@@ -1347,6 +1351,10 @@
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\service.html",
       "PackagePath": "staticwebassets\\service.html"
+    },
+    {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\test-pricing.html",
+      "PackagePath": "staticwebassets\\test-pricing.html"
     },
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\web.config",

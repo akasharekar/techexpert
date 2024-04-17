@@ -2204,7 +2204,7 @@ svg {
     width: 300px;
 }
 
-.side-bar.sticky-bar   {
+.side-bar.sticky-bar {
     grid-area: one;
     width: 300px;
     position: fixed;
@@ -2213,14 +2213,16 @@ svg {
     left: 0;
     overflow-y: auto;
     background-color: #14576b;
+    color: #ffffff;
+    font-size:16px;
 }
 
 .tab-head.sticky-bar {
-    height: 80px;
-    font-size: 20px;
-    border-bottom: 2px solid rgb(179, 176, 176);
+    height: 50px;
+    font-size: 16px;
+    /* border-bottom: 4px solid  rgb(253, 115, 2); */
     font-weight: 900;
-    color: #EC6C21;
+    color:  rgb(253, 115, 2);
 
     width: 78%;
     align-items: center;
@@ -2258,15 +2260,16 @@ svg {
 }
 
 .Features {
-    height: 80px;
-    font-size: 20px;
-    border-bottom: 2px solid rgb(179, 176, 176);
+    height: 50px;
+    /* orange colour */
+    /* border-bottom: 3px solid rgb(253, 115, 2); */
     display: flex;
     align-items: center;
     padding-left: 40px;
     font-weight: 900;
-    color: #EC6C21;
-    
+    color: rgb(253, 115, 2);
+    font-size:16px;
+
 }
 
 
@@ -2310,23 +2313,23 @@ svg {
     padding: 20px;
 }
 
-.tab-head{
-    height: 80px;
-    font-size: 20px;
-    border-bottom: 2px solid rgb(179, 176, 176);
+.tab-head {
+    height: 50px;
+    font-size: 16px;
+    /* border-bottom: 2px solid rgb(179, 176, 176); */
     font-weight: 900;
     color: #EC6C21;
 
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
 
-}  
+}
 
 /* network css */
 
-.main-bar{
+.main-bar {
     width: 100%;
     height: 50px;
     border-top: 2px solid rgb(179, 176, 176);
@@ -2335,9 +2338,10 @@ svg {
     justify-content: center;
     align-items: center;
     font-weight: bolder;
-    background-color: #343434;
+    background-color:#EC6C21;
 }
-.sub-bar{
+
+.sub-bar {
     width: 100%;
     height: 30px;
     border-top: 2px solid rgb(179, 176, 176);
@@ -2350,14 +2354,111 @@ svg {
 
 }
 
-.item ,.price ,.btn{
+.item,
+.price,
+.btn {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
 
-.net-tab ,.ss-tab,.sec-tab,.cld-tab ,.mon-tab ,.sup-tab{
-    /* display: none; */
+/* .net-tab,
+.ss-tab,
+.sec-tab,
+.cld-tab,
+.mon-tab,
+.sup-tab {
+    display: none;
+} */
+
+
+.main ul li input {
+    width: 100px;
+    margin-left: 0;
+    border-radius: 5px;
+    border: 1px solid black;
 }
+
+
+
+.val {
+    height: 50px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+
+}
+
+.get-btn{
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.item-2{
+    border: 2px solid #343434;
+    /* background-color: #b3a6a6; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 330px;
+    padding: 20px 0 20px 0;
+    border-radius: 25px;
+}
+
+
+.get-btn button{
+    height: 40px;
+    width: 150px;
+    background-color: #EC6C21;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+
+
+.item .val,  .item .get-btn {
+    border: none;
+}
+
+.item div li{
+    padding-left: 30px;
+}
+
+
+/* list icon */
+
+div li {
+	padding-left: 1.5em;
+	margin-bottom: 0.5em;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li:not(:last-child){
+    margin-bottom: 10px;
+}
+
+/* correct icon css */
+.icon::before{
+    content: "\2714";
+    color: rgba(11, 153, 11, 0.836);
+    font-size: 22px; 
+
+}
+
+/* cross icomn css */
+.icon-emp::before{
+    content: "\2A2F";
+    color: rgb(255, 5, 5);
+    font-size: 22px; 
+    padding-right: 5px;
+
+}
+
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fX+ljxNjdwk0e26Uf4BPFJm7lEj02JMLu5snAeMUrVY=",
+  "Hash": "LgW9LFnIX74H15LVfzaIZ2n1jGYYOJWH3CuP+VvSXcc=",
   "Source": "TechXpert.Website",
   "BasePath": "_content/TechXpert.Website",
   "Mode": "Default",
@@ -406,6 +406,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\hero-img1.png"
+    },
+    {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\icon.svg",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "assets/icon.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\icon.svg"
     },
     {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\jenny.png",
@@ -5761,6 +5778,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service.html"
+    },
+    {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\test-pricing.html",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "test-pricing.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\test-pricing.html"
     },
     {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\web.config",
