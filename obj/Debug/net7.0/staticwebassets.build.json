@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LgW9LFnIX74H15LVfzaIZ2n1jGYYOJWH3CuP+VvSXcc=",
+  "Hash": "Lg1QuwZvToalPRHuslgH+4GI0z3Gq9S0pnbO7lRkHZw=",
   "Source": "TechXpert.Website",
   "BasePath": "_content/TechXpert.Website",
   "Mode": "Default",
@@ -678,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\contact.html"
+    },
+    {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\css\\pricing-2.css",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "css/pricing-2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\pricing-2.css"
     },
     {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\css\\style.css",
@@ -5729,6 +5746,40 @@
       "OriginalItemSpec": "wwwroot\\network-service.html"
     },
     {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\Pricing old.html",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "Pricing old.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pricing old.html"
+    },
+    {
+      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\pricing-2.html",
+      "SourceId": "TechXpert.Website",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
+      "BasePath": "_content/TechXpert.Website",
+      "RelativePath": "pricing-2.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pricing-2.html"
+    },
+    {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\Pricing.html",
       "SourceId": "TechXpert.Website",
       "SourceType": "Discovered",
@@ -5778,23 +5829,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\service.html"
-    },
-    {
-      "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\test-pricing.html",
-      "SourceId": "TechXpert.Website",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\",
-      "BasePath": "_content/TechXpert.Website",
-      "RelativePath": "test-pricing.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\test-pricing.html"
     },
     {
       "Identity": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\web.config",

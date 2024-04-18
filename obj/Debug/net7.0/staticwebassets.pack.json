@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\TechXpert.Website.bundle.scp.css"
     },
     {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\Pricing old.html",
+      "PackagePath": "staticwebassets\\Pricing old.html"
+    },
+    {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\Pricing.html",
       "PackagePath": "staticwebassets\\Pricing.html"
     },
@@ -155,6 +159,10 @@
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\contact.html",
       "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\css\\pricing-2.css",
+      "PackagePath": "staticwebassets\\css\\pricing-2.css"
     },
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\css\\style.css",
@@ -1345,16 +1353,16 @@
       "PackagePath": "staticwebassets\\network-service.html"
     },
     {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\pricing-2.html",
+      "PackagePath": "staticwebassets\\pricing-2.html"
+    },
+    {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\server-and-storage.html",
       "PackagePath": "staticwebassets\\server-and-storage.html"
     },
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\service.html",
       "PackagePath": "staticwebassets\\service.html"
-    },
-    {
-      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\test-pricing.html",
-      "PackagePath": "staticwebassets\\test-pricing.html"
     },
     {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\web.config",

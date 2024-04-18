@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/pricing-2.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <title>pricing page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- <div class="text-center">
+            <div class="nav price-tabs" role="tablist">
+                <a class="nav-link active" href="#yearly" role="tab" data-toggle="tab">Yearly</a>
+                <a class="nav-link" href="#monthly" role="tab" data-toggle="tab">Monthly</a>
+            </div>
+        </div> -->
+        <div class="tab-content wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
+            <div role="tabpanel" class="tab-pane fade show active" id="yearly">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center">
+                            <div class="price-top">
+                                <h4>Basic</h4>
+                                <!-- <h2 class="mb-0"><sup>$</sup>99</h2> -->
+                                <span class="text-capitalize">per year</span>
+                            </div>
+
+                            <div class="accordion" id="accordionExample">
+
+                                <!-- network -->
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Network
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <button type="button" class="btn ">Switch</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Router</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Access Point</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">SD WAN</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            Server & Storage
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <button type="button" class="btn ">Server Configuration</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">File Server</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Virtualization</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">VMware</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Nutanix</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Microsoft 365</button>
+                                            </div>
+                                            <div>
+                                                <button type="button" class="btn ">Backup Solution</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Security
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <button type="button" class="btn ">Firewall</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="false" aria-controls="collapseFour">
+                                            Security
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <div>
+                                                <button type="button" class="btn ">Firewall</button>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center popular">
+                            <div class="price-top">
+                                <h4>Standard</h4>
+                                <!-- <h2 class="mb-0"><sup>$</sup>299</h2> -->
+                                <span class="text-capitalize">per year</span>
+                            </div>
+                            <div class="price-content">
+                                <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Eget erovtiu faucid</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Cras justo odio</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Morbi leo risus</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Porta consectetur ac</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span> Vestibulum at eros</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Adipisci atque beatae</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-custom btn-light">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center">
+                            <div class="price-top">
+                                <h4>Enterprise</h4>
+                                <!-- <h2 class="mb-0"><sup>$</sup>399</h2> -->
+                                <span class="text-capitalize">per year</span>
+                            </div>
+                            <div class="price-content">
+                                <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Eget erovtiu faucid</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Cras justo odio</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Morbi leo risus</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Porta consectetur ac</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span> Vestibulum at eros</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Adipisci atque beatae</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-custom">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="monthly">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center">
+                            <div class="price-top">
+                                <h4>Personal</h4>
+                                <h2 class="mb-0"><sup>$</sup>29</h2>
+                                <span class="text-capitalize">per month</span>
+                            </div>
+                            <div class="price-content">
+                                <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Eget erovtiu faucid</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Cras justo odio</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Morbi leo risus</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Porta consectetur ac</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span> Vestibulum at eros</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Adipisci atque beatae</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-custom">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center popular">
+                            <div class="price-top">
+                                <h4>Business</h4>
+                                <h2 class="mb-0"><sup>$</sup>59</h2>
+                                <span class="text-capitalize">per month</span>
+                            </div>
+                            <div class="price-content">
+                                <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Eget erovtiu faucid</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Cras justo odio</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Morbi leo risus</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Porta consectetur ac</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span> Vestibulum at eros</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Adipisci atque beatae</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-custom btn-light">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 mb-30">
+                        <div class="price-item text-center">
+                            <div class="price-top">
+                                <h4>Enterprise</h4>
+                                <h2 class="mb-0"><sup>$</sup>99</h2>
+                                <span class="text-capitalize">per month</span>
+                            </div>
+                            <div class="price-content">
+                                <ul class="border-bottom mb-30 mt-md-4 pb-3 text-left">
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Eget erovtiu faucid</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Cras justo odio</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-check mr-2"></i>
+                                        <span class="c-black">Morbi leo risus</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Porta consectetur ac</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span> Vestibulum at eros</span>
+                                    </li>
+                                    <li>
+                                        <i class="zmdi zmdi-close mr-2"></i>
+                                        <span>Adipisci atque beatae</span>
+                                    </li>
+                                </ul>
+                                <a href="#" class="btn btn-custom">Buy now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
+
+    <!-- accordian js -->
+    <script>
+        $(function () {
+            var Accordion = function (el, multiple) {
+                this.el = el || {};
+                this.multiple = multiple || false;
+
+                var links = this.el.find('.link');
+
+                links.on('click', { el: this.el, multiple: this.multiple }, this.dropdown)
+            }
+
+            Accordion.prototype.dropdown = function (e) {
+                var $el = e.data.el;
+                $this = $(this),
+                    $next = $this.next();
+
+                $next.slideToggle();
+                $this.parent().toggleClass('open');
+
+                if (!e.data.multiple) {
+                    $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
+                };
+            }
+
+            var accordion = new Accordion($('#accordion'), false);
+        });
+    </script>
+</body>
+
+</html>
