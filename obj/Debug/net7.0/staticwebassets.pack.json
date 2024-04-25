@@ -45,6 +45,18 @@
       "PackagePath": "staticwebassets\\assets\\arrow-about.png"
     },
     {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\bat1.svg",
+      "PackagePath": "staticwebassets\\assets\\bat1.svg"
+    },
+    {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\bat2.svg",
+      "PackagePath": "staticwebassets\\assets\\bat2.svg"
+    },
+    {
+      "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\bat3.svg",
+      "PackagePath": "staticwebassets\\assets\\bat3.svg"
+    },
+    {
       "Id": "D:\\AKASH\\TechExpert\\techexpert\\wwwroot\\assets\\cloudservice.png",
       "PackagePath": "staticwebassets\\assets\\cloudservice.png"
     },

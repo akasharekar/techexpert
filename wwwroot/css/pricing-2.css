@@ -159,15 +159,19 @@ body {
 }
 
 .popular .price-top {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #00b5ec;
 }
 
 .popular .price-top:after {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #00b5ec;
+    
 }
 
 .popular .price-top h4 {
-    color: #101f41;
+    /* color: #101f41; */
+    color: #fff;
 }
 
 h4 {
